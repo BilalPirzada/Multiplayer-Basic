@@ -1,7 +1,9 @@
 ﻿using Mirror;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MyNetworkManager : NetworkManager
 {
@@ -15,6 +17,7 @@ public class MyNetworkManager : NetworkManager
 
         player.SetDiplayName($"Player {numPlayers}");
         player.setColor();
+
 
     }
 }
